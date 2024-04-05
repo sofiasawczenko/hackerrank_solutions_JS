@@ -1,0 +1,15 @@
+function diagonalDifference(arr) {
+    let matrizSize = arr[0].length;
+    let primaryDiagonalSum = 0;
+    let secundaryDiagonalSum = 0;
+    
+    for (let i = 0, j = matrizSize - 1; i < matrizSize; i++, j--) {
+        primaryDiagonalSum += arr[i][i];
+        secundaryDiagonalSum += arr[i][j];
+    }
+    
+    let diagonalDifference = primaryDiagonalSum - secundaryDiagonalSum
+    
+    return Math.abs(diagonalDifference)
+}
+}
