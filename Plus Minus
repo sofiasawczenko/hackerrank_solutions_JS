@@ -1,0 +1,24 @@
+function plusMinus(arr) {
+  const arraySize = arr.length; 
+  let positiveCount = 0;
+  let negativeCount = 0;
+  let zeroCount = 0;
+
+  for (const number of arr) { 
+    if (number > 0) {
+      positiveCount++;
+    } else if (number < 0) {
+      negativeCount++;
+    } else {
+      zeroCount++;
+    }
+  }
+
+  const positiveRatio = (positiveCount / arraySize).toFixed(6);
+  const negativeRatio = (negativeCount / arraySize).toFixed(6);
+  const zeroRatio = (zeroCount / arraySize).toFixed(6);
+
+  console.log(positiveRatio);
+  console.log(negativeRatio);
+  console.log(zeroRatio);
+}
