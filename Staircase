@@ -1,0 +1,5 @@
+function staircase(numeroDegraus) {
+  for (let degrauAtual = 1; degrauAtual <= numeroDegraus; degrauAtual++) {
+    console.log("#".repeat(degrauAtual).padStart(numeroDegraus));
+  }
+}
