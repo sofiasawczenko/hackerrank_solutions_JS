@@ -2,8 +2,8 @@
 
 This repository contains solutions to various problem-solving challenges of Algorithms from HackerRank using **JavaScript** (Node.js). The solutions are aimed at helping learners improve their coding and problem-solving skills through practice.
 
-Visit HackerRank for more challenges: [HackerRank](https://www.hackerrank.com)
-My HackerRank profile: https://www.hackerrank.com/profile/ra104242
+- Visit HackerRank for more challenges: [HackerRank](https://www.hackerrank.com)
+- My HackerRank profile: https://www.hackerrank.com/profile/ra104242
 
 ## Technologies Used
 
